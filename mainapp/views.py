@@ -18,6 +18,7 @@ def category_detail(request, id):
 
 
 def post_detail(request, id):
+    prinnt(id)
     return render(request, 'index.html', {})
 
 
